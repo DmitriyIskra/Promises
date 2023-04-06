@@ -1,12 +1,12 @@
-import read from './reader'
-import json from './parser'
+import read from './reader';
+import json from './parser';
 import GameSavingLoader from './loader';
 
-const gameSavingLoader = new GameSavingLoader()
+const gameSavingLoader = new GameSavingLoader();
 
-const r = gameSavingLoader.load()
+gameSavingLoader.load()
     .then((saving) => {
-        saving = read();
+        saving = read(); 
         return saving;
     })
     .then((saving) => {
