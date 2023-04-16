@@ -5,4 +5,4 @@ export default function json(data) {
       resolve(String.fromCharCode.apply(null, new Uint16Array(data)));
     }, 500);
   });
-}
+} 

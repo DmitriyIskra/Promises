@@ -13,4 +13,4 @@ export default function read() {
       })(data);
     }, 1000);
   });
-}
+} 
