@@ -4,5 +4,5 @@ export default function json(data) {
     setTimeout(() => {
       resolve(String.fromCharCode.apply(null, new Uint16Array(data)));
     }, 500);
-  });
+  }); 
 } 
